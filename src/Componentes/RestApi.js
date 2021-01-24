@@ -14,7 +14,6 @@ export const RestApi = ({ categoria }) => {
         <div className="animate__animated animate__backInLeft card-grid">
 
         {loading && <div className='containerLoading'><p>Loading....</p><div className='laoding'></div></div>}
-        {console.log(imagenes)}
         {
             imagenes.map(img => {
                 return(
