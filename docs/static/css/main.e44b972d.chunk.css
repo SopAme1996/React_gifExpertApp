@@ -1,2 +1,87 @@
-*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif;color:#fff}body{padding:30px;background:url(/static/media/fondos-de-colores-9.4cee1865.jpeg);background-repeat:no-repeat;background-size:cover}input{color:grey;font-size:1.2rem;width:100%;margin:30px 0;padding:10px;border-radius:20px;border:none}header{padding:10px;text-align:center;font-size:20px}.card-grid{display:flex;flex-direction:row;flex-wrap:wrap}.card{align-content:center;border:1px solid grey;border-radius:6px;overflow:hidden;margin-bottom:10px;margin-right:10px}.card p{text-align:center;padding:5px;font-size:20px}.card img{width:100%;max-height:270px;object-fit:cover}.titulo{margin:20px;font-size:25px}.line{display:none}.laoding{width:200px;height:200px;border:10px ridge red;border-right:transparent;border-radius:50%;animation:carga 1s linear infinite;z-index:10}.containerLoading{position:relative;top:50%;left:45%;transform:translateY(50%)}.containerLoading p{position:absolute;top:42%;left:20%;font-size:30px}@keyframes carga{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+body {
+  padding: 30px;
+  background: url(./static/media/fondos-de-colores-9.4cee1865.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+input {
+  color: grey;
+  font-size: 1.2rem;
+  width: 100%;
+  margin: 30px 0;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+}
+header {
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card {
+  align-content: center;
+  border: 1px solid grey;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.card p {
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+}
+.card img {
+  width: 100%;
+  max-height: 270px;
+  object-fit: cover;
+}
+.titulo {
+  margin: 20px;
+  font-size: 25px;
+}
+.line {
+  display: none;
+}
+.laoding {
+  width: 200px;
+  height: 200px;
+  border: 10px ridge red;
+  border-right: transparent;
+  border-radius: 50%;
+  animation: carga 1s linear infinite;
+  z-index: 10;
+}
+.containerLoading {
+  position: relative;
+  top: 50%;
+  left: 45%;
+  transform: translateY(50%);
+}
+.containerLoading p {
+  position: absolute;
+  top: 42%;
+  left: 20%;
+  font-size: 30px;
+}
+@keyframes carga {
+  0% {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
 /*# sourceMappingURL=main.e44b972d.chunk.css.map */
