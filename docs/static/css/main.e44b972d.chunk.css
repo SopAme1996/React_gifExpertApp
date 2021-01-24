@@ -7,7 +7,7 @@
 }
 body {
   padding: 30px;
-  background: url(./static/media/fondos-de-colores-9.4cee1865.jpeg);
+  background: url('../media/fondos-de-colores-9.4cee1865.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
 }
