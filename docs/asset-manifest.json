@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e44b972d.chunk.css",
+    "main.js": "/static/js/main.a2ae4518.chunk.js",
+    "main.js.map": "/static/js/main.a2ae4518.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e0a0760d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e0a0760d.js.map",
+    "static/js/2.bff9ed2a.chunk.js": "/static/js/2.bff9ed2a.chunk.js",
+    "static/js/2.bff9ed2a.chunk.js.map": "/static/js/2.bff9ed2a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.e44b972d.chunk.css.map": "/static/css/main.e44b972d.chunk.css.map",
+    "static/js/2.bff9ed2a.chunk.js.LICENSE.txt": "/static/js/2.bff9ed2a.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/fondos-de-colores-9.4cee1865.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e0a0760d.js",
+    "static/js/2.bff9ed2a.chunk.js",
+    "static/css/main.e44b972d.chunk.css",
+    "static/js/main.a2ae4518.chunk.js"
+  ]
+}
