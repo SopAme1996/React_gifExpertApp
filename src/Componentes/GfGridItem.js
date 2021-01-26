@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import PropTypes from 'prop-types';
+
 
 export const GfGridItem = ({title, url}) => {
     return (
@@ -8,3 +10,10 @@ export const GfGridItem = ({title, url}) => {
         </div>
     )
 }
+
+GfGridItem.propTypes = {
+    title: PropTypes.string.isRequired,
+    url: PropTypes.string.isRequired
+}
+
+export default GfGridItem

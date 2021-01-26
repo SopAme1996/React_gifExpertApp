@@ -3,9 +3,9 @@ import { AddCategoria } from './Componentes/AddCategoria';
 import { RestApi } from './Componentes/RestApi';
 
 
-export const GiffApp = () => {
+export const GiffApp = ({defaultCategoria = []}) => {
 
-    const [data, setData]=useState(['One Punch']);
+    const [data, setData]=useState( defaultCategoria );
 
     return (
         <>

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hacemos el test del RestApi  se debe mostrar correctamente  1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn titulo"
+  >
+    Goku
+  </h3>
+  <hr
+    className="line"
+  />
+  <div
+    className="animate__animated animate__backInLeft card-grid"
+  >
+    <div
+      className="containerLoading"
+    >
+      <p>
+        Loading....
+      </p>
+      <div
+        className="laoding"
+      />
+    </div>
+  </div>
+</Fragment>
+`;

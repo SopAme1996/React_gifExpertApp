@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test de giffApp Debe de mostrar una lista de categorias  1`] = `
+<Fragment>
+  <header>
+    <h1>
+      GifApp
+    </h1>
+  </header>
+  <hr />
+  <section>
+    <AddCategoria
+      setData={[Function]}
+    />
+  </section>
+  <section>
+    <RestApi
+      categoria="vegeta"
+      key="vegeta"
+    />
+    <RestApi
+      categoria="goku"
+      key="goku"
+    />
+  </section>
+</Fragment>
+`;
+
+exports[`Test de giffApp Test del componente padre de los otros componentes 1`] = `
+<Fragment>
+  <header>
+    <h1>
+      GifApp
+    </h1>
+  </header>
+  <hr />
+  <section>
+    <AddCategoria
+      setData={[Function]}
+    />
+  </section>
+  <section />
+</Fragment>
+`;

@@ -1,6 +1,7 @@
 import React from 'react';
 import { useFetchGifs } from '../Hooks/useFetchGifs';
 import { GfGridItem } from './GfGridItem';
+import PropTypes from 'prop-types'
 
 
 export const RestApi = ({ categoria }) => {
@@ -27,4 +28,8 @@ export const RestApi = ({ categoria }) => {
         </div>
         </>
     )
+}
+
+RestApi.propTypes = {
+categoria: PropTypes.string.isRequired
 }

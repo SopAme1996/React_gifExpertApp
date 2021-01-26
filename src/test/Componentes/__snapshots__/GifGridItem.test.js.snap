@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba al componente <GifGridItem/> Debe de generar los cards 1`] = `
+<div
+  className="card"
+>
+  <img
+    alt="Un titulo"
+    src="https://localhost"
+  />
+  <p>
+    Un titulo
+  </p>
+</div>
+`;
