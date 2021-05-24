@@ -1,30 +1,34 @@
-import React, {useState} from 'react'
-import PropTypes from 'prop-types';
+import React, { useState } from "react";
+import PropTypes from "prop-types";
 
-export const AddCategoria = ({setData}) => {
+export const AddCategoria = ({ setData }) => {
+  const [input, setInput] = useState("");
 
-    const [input, setInput] = useState('');
+  const eventoTeclado = (e) => {
+    setInput(e.target.value);
+  };
 
-    const eventoTeclado  = (e) =>{
-        setInput(e.target.value);
+  const eventoEnter = (e) => {
+    e.preventDefault();
+
+    if (input.trim().length > 2) {
+      setData((data) => [input, ...data]);
+      setInput("");
     }
+  };
 
-    const eventoEnter = (e) =>{
-        e.preventDefault();
-        
-        if (input.trim().length > 2){
-            setData(data => [input, ...data]);
-            setInput('');
-        }
-    }
-
-    return (
-        <form onSubmit={eventoEnter}>
-            <input type="text" value={input} onChange={eventoTeclado} placeholder="Ingrese su personaje favorito" />
-        </form>        
-    )
-}
+  return (
+    <form onSubmit={eventoEnter}>
+      <input
+        type="text"
+        value={input}
+        onChange={eventoTeclado}
+        placeholder="Ingrese su personaje favorito"
+      />
+    </form>
+  );
+};
 
 AddCategoria.propTypes = {
-    setData: PropTypes.func.isRequired
-}
+  setData: PropTypes.func.isRequired,
+};
